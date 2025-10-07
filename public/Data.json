@@ -1,0 +1,530 @@
+[
+    {
+        "image": "https://i.ibb.co.com/fdQC1RDd/demo-app-1.webp",
+        "title": "ChatPro Messenger",
+        "companyName": "TechConnect Inc.",
+        "id": 101,
+        "description": "ChatPro is the ultimate communication tool, offering **fast, secure, and feature-rich messaging** with robust end-to-end encryption to protect your privacy. Enjoy **high-quality video and voice calls**, group chats for teams or family, and customizable themes. It also includes fun stickers and seamless file sharing across all your devices, making connectivity simple and reliable.",
+        "size": 75,
+        "reviews": 125432,
+        "ratingAvg": 4.6,
+        "downloads": 5100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500
+            },
+            {
+                "name": "2 star",
+                "count": 3100
+            },
+            {
+                "name": "3 star",
+                "count": 12800
+            },
+            {
+                "name": "4 star",
+                "count": 37000
+            },
+            {
+                "name": "5 star",
+                "count": 69922
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Swqs4jBh/demo-app-2.webp",
+        "title": "ProPhoto Editor",
+        "companyName": "CreativeApps Ltd.",
+        "id": 102,
+        "description": "Unleash your creativity with ProPhoto Editor, providing **professional-grade photo editing tools** previously only found on desktop software. Utilize **advanced filters, precise layer support**, and a comprehensive set of adjustment features like curves and selective color correction. Whether you're a hobbyist or a professional, achieve stunning, high-definition results with its **intuitive, non-destructive workflow**.",
+        "size": 150,
+        "reviews": 89120,
+        "ratingAvg": 4.8,
+        "downloads": 2300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1100
+            },
+            {
+                "name": "3 star",
+                "count": 5200
+            },
+            {
+                "name": "4 star",
+                "count": 18500
+            },
+            {
+                "name": "5 star",
+                "count": 63420
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/wZdry1FX/demo-app-4.webp",
+        "title": "FitnessCoach AI",
+        "companyName": "HealthTrack Solutions",
+        "id": 103,
+        "description": "FitnessCoach AI is your **pocket personal trainer**, dedicated to helping you reach your health goals. It generates **personalized workout plans and tracks your diet** using cutting-edge artificial intelligence. Get real-time feedback on your form and progress, access a vast library of HD exercise videos, and monitor your calorie intake effortlessly. **Achieving peak fitness has never been smarter**.",
+        "size": 95,
+        "reviews": 21098,
+        "ratingAvg": 4.2,
+        "downloads": 750000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1100
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 3500
+            },
+            {
+                "name": "4 star",
+                "count": 6700
+            },
+            {
+                "name": "5 star",
+                "count": 8298
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/8DJX8CRM/demo-app-3.webp",
+        "title": "StockTrack Live",
+        "companyName": "Financial Tools Co.",
+        "id": 104,
+        "description": "Stay ahead of the market with StockTrack Live, providing **real-time stock quotes and essential portfolio management tools**. Analyze trends with advanced charting features, receive **breaking market news alerts**, and manage your watchlists seamlessly across devices. This app is designed for both seasoned traders and beginners, offering the insights needed to make **informed financial decisions instantly**.",
+        "size": 60,
+        "reviews": 34500,
+        "ratingAvg": 4.5,
+        "downloads": 1300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 4100
+            },
+            {
+                "name": "4 star",
+                "count": 9000
+            },
+            {
+                "name": "5 star",
+                "count": 20000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/7J2LpRPf/demo-app-5.webp",
+        "title": "Galaxy Wizard Saga",
+        "companyName": "NexGen Games",
+        "id": 105,
+        "description": "Embark on an epic journey in **Galaxy Wizard Saga**, a thrilling, open-world fantasy RPG. Discover mysterious lands, complete challenging quests, and interact with deep lore. Featuring **stunning console-quality 3D graphics** and a dynamic combat system, you can customize your hero and master powerful spells. **The cosmos is waiting for your magic!**",
+        "size": 950,
+        "reviews": 345678,
+        "ratingAvg": 4.7,
+        "downloads": 8900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3000
+            },
+            {
+                "name": "2 star",
+                "count": 4500
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 65000
+            },
+            {
+                "name": "5 star",
+                "count": 248178
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/bRNBkzSL/demo-app-6.webp",
+        "title": "Note-It Digital Notebook",
+        "companyName": "Productivity Hub",
+        "id": 106,
+        "description": "Note-It is the **seamless way to capture, organize, and review your ideas**. Enjoy rich text formatting, multimedia embedding, and a tag system for easy retrieval. The app ensures your notes are **automatically synced across all your devices** (phone, tablet, and desktop). Perfect for students, professionals, and anyone who needs a **reliable digital scratchpad**.",
+        "size": 40,
+        "reviews": 67890,
+        "ratingAvg": 4.4,
+        "downloads": 3500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500
+            },
+            {
+                "name": "2 star",
+                "count": 2000
+            },
+            {
+                "name": "3 star",
+                "count": 8000
+            },
+            {
+                "name": "4 star",
+                "count": 18390
+            },
+            {
+                "name": "5 star",
+                "count": 38000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/GfLkWXSz/image.png",
+        "title": "Global Weather Live",
+        "companyName": "Aura Forecasts",
+        "id": 107,
+        "description": "Get the most **accurate and up-to-date weather information** with Global Weather Live. Features include **hourly and detailed 7-day forecasts**, interactive radar maps, and timely severe weather alerts for your precise location. Customize your home screen with elegant widgets and plan your day confidently with wind speed, humidity, and UV index data at your fingertips. **Never be surprised by the weather again**.",
+        "size": 30,
+        "reviews": 98765,
+        "ratingAvg": 4.3,
+        "downloads": 6000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2000
+            },
+            {
+                "name": "2 star",
+                "count": 3500
+            },
+            {
+                "name": "3 star",
+                "count": 11000
+            },
+            {
+                "name": "4 star",
+                "count": 30265
+            },
+            {
+                "name": "5 star",
+                "count": 52000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/gL66C6pZ/image.png",
+        "title": "StreamBeat Music",
+        "companyName": "SoundWave Media",
+        "id": 108,
+        "description": "Dive into a vast library of **millions of songs on demand** with StreamBeat Music. Discover new artists, explore expertly **curated playlists for every mood**, and create your own perfect mixes. Enjoy high-fidelity audio quality and the convenience of **offline listening**, so your favorite tracks are always available. It's the ultimate music experience, personalized just for you.",
+        "size": 110,
+        "reviews": 156000,
+        "ratingAvg": 4.9,
+        "downloads": 9800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 8500
+            },
+            {
+                "name": "4 star",
+                "count": 25000
+            },
+            {
+                "name": "5 star",
+                "count": 120000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/dwXCt7zR/image.png",
+        "title": "LinguaLearn",
+        "companyName": "GlobalEd Tech",
+        "id": 109,
+        "description": "Start your journey to **fluency with LinguaLearn**, featuring engaging and **interactive lessons for over 15 languages**. Our curriculum is designed by linguistic experts, utilizing **voice recognition technology** to perfect your pronunciation. With gamified progress tracking and cultural context snippets, you'll learn faster and more effectively than ever before. **Download today and speak the world!**",
+        "size": 180,
+        "reviews": 45000,
+        "ratingAvg": 4.5,
+        "downloads": 1900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 5000
+            },
+            {
+                "name": "4 star",
+                "count": 12000
+            },
+            {
+                "name": "5 star",
+                "count": 26000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/jnm8s7Y/image.png",
+        "title": "AeroMaps Navigation",
+        "companyName": "GeoPilot Systems",
+        "id": 110,
+        "description": "AeroMaps provides the **most reliable and efficient route planning** for driving, walking, and public transit. Key features include **turn-by-turn voice guidance, real-time traffic updates**, and the ability to download **detailed offline maps** for navigation without an internet connection. Find points of interest easily and choose the fastest or most scenic way to your destination every time.",
+        "size": 220,
+        "reviews": 78000,
+        "ratingAvg": 4.6,
+        "downloads": 4200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 8500
+            },
+            {
+                "name": "4 star",
+                "count": 20000
+            },
+            {
+                "name": "5 star",
+                "count": 47000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Kc9HKkxJ/image.png",
+        "title": "PodMaster Player",
+        "companyName": "AudioCast Network",
+        "id": 111,
+        "description": "Your new favorite way to listen, **PodMaster Player** makes discovering and enjoying podcasts simple. Easily subscribe to **millions of podcasts** across all genres, from news to comedy. Customize your playback experience with **variable speed controls and intelligent silence skipping**. It features smart recommendations and a powerful search engine, ensuring you never miss an episode.",
+        "size": 55,
+        "reviews": 15000,
+        "ratingAvg": 4.7,
+        "downloads": 650000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 1500
+            },
+            {
+                "name": "4 star",
+                "count": 4000
+            },
+            {
+                "name": "5 star",
+                "count": 9000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/wh6FPjbL/image.png",
+        "title": "PDF Swift Scanner",
+        "companyName": "Office Tools Dev",
+        "id": 112,
+        "description": "Quickly and accurately **digitize your physical documents** with PDF Swift Scanner. Use your phone's camera to create **high-quality, professional PDF scans** with automatic edge detection and image enhancement. Organize, share, and even electronically sign your documents on the go. It’s the essential tool for reducing paper clutter and creating **sharp digital copies effortlessly**.",
+        "size": 80,
+        "reviews": 55000,
+        "ratingAvg": 4.4,
+        "downloads": 2800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1300
+            },
+            {
+                "name": "2 star",
+                "count": 1700
+            },
+            {
+                "name": "3 star",
+                "count": 7000
+            },
+            {
+                "name": "4 star",
+                "count": 15000
+            },
+            {
+                "name": "5 star",
+                "count": 30000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/sp9htn19/image.png",
+        "title": "MoneyFlow Budget",
+        "companyName": "SmartFinance Corp.",
+        "id": 113,
+        "description": "Take control of your financial future with MoneyFlow Budget. This intuitive app helps you **track every expense, set realistic budgets**, and connect securely to your bank accounts. Visualize your spending habits with insightful charts and get smart alerts when you're nearing budget limits. **Achieve your savings goals** and manage your money with unparalleled clarity and ease, making budgeting simple.",
+        "size": 45,
+        "reviews": 18000,
+        "ratingAvg": 4.8,
+        "downloads": 700000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 1700
+            },
+            {
+                "name": "4 star",
+                "count": 4500
+            },
+            {
+                "name": "5 star",
+                "count": 11000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Psk12pZX/image.png",
+        "title": "ConnectVid Pro",
+        "companyName": "DigitalComms",
+        "id": 114,
+        "description": "Host and join professional meetings with **ConnectVid Pro**, the platform for **crystal-clear video conferencing**. It offers secure, reliable connections for teams of any size, supporting features like **HD video, dynamic screen sharing, and meeting recording**. Whether you're collaborating with colleagues or catching up with friends, enjoy a seamless and productive virtual meeting experience.",
+        "size": 130,
+        "reviews": 62000,
+        "ratingAvg": 4.1,
+        "downloads": 3100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3000
+            },
+            {
+                "name": "2 star",
+                "count": 4000
+            },
+            {
+                "name": "3 star",
+                "count": 10000
+            },
+            {
+                "name": "4 star",
+                "count": 18000
+            },
+            {
+                "name": "5 star",
+                "count": 27000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/WWNYS1hr/image.png",
+        "title": "TasteHub Recipes",
+        "companyName": "Culinary Tech",
+        "id": 115,
+        "description": "Unlock a world of flavor with **TasteHub Recipes**, your go-to source for **thousands of recipes from global cuisines**. Get **step-by-step cooking instructions**, ingredient lists, and nutritional information for every dish. Save your favorites, create shopping lists, and filter by dietary restrictions. Whether you're a novice or a gourmet chef, find your next amazing meal here.",
+        "size": 90,
+        "reviews": 29000,
+        "ratingAvg": 4.5,
+        "downloads": 1100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 700
+            },
+            {
+                "name": "3 star",
+                "count": 3800
+            },
+            {
+                "name": "4 star",
+                "count": 9000
+            },
+            {
+                "name": "5 star",
+                "count": 15000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/whp1XFwj/image.png",
+        "title": "SecureGuard Antivirus",
+        "companyName": "CyberDefense Labs",
+        "id": 116,
+        "description": "Protect your device from online threats with **SecureGuard Antivirus**, offering **comprehensive mobile security and real-time protection** against malware, viruses, and phishing attempts. It scans new apps and files automatically, secures your Wi-Fi connection, and includes a handy App Lock feature for privacy. **Keep your data safe and your device running smoothly** with industry-leading cyber defense.",
+        "size": 65,
+        "reviews": 88000,
+        "ratingAvg": 4.6,
+        "downloads": 4500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1100
+            },
+            {
+                "name": "2 star",
+                "count": 1900
+            },
+            {
+                "name": "3 star",
+                "count": 9000
+            },
+            {
+                "name": "4 star",
+                "count": 25000
+            },
+            {
+                "name": "5 star",
+                "count": 51000
+            }
+        ]
+    }
+]
