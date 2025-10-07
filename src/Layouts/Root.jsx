@@ -5,9 +5,9 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
     return (
-        <div className='inter'>
+        <div className='inter flex flex-col min-h-screen'>
             <Navbar></Navbar>
-            <div className='w-11/12 mx-auto'>
+            <div className='flex-1'>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>

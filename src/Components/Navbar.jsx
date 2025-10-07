@@ -5,7 +5,7 @@ import GithubLogo from '../assets/resources/Vector.png'
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm md:px-10 lg:px-14">
+        <div className="navbar bg-base-100 shadow-sm md:px-5 lg:px-14">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,7 +13,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow space-y-2">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow space-y-3">
                         <NavLink to={'/'} className={'font-medium hover:text-[#632EE3]'}>Home</NavLink>
                         <NavLink to={'/apps'} className={'font-medium hover:text-[#632EE3]'}>Apps</NavLink>
                         <NavLink to={'/installation'} className={'font-medium hover:text-[#632EE3]'}>Installation</NavLink>
