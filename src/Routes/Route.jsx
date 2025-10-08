@@ -6,6 +6,8 @@ import Apps from './../Pages/Apps';
 import Installation from './../Pages/Installation';
 import AppsDetails from './../Pages/AppsDetails';
 import Loading from "../Components/Loading";
+import Error404 from "../Pages/Error404";
+import ErrorApp from './../Pages/ErrorApp';
 
 
 const router = createBrowserRouter([
@@ -29,13 +31,14 @@ const router = createBrowserRouter([
                 path: 'apps/:id',
                 Component: AppsDetails,
                 loader: () => fetch('../Data.json').then(res => res.json()),
+                errorElement: <ErrorApp></ErrorApp>
             },
             {
                 path: 'installation',
                 Component: Installation,
                 loader: () => fetch('../Data.json').then(res => res.json()),
             },
-            { path: '*', element: <p className="text-2xl font-bold text-center">404 No Page Found</p> },
+            { path: '*', element: <Error404></Error404> },
         ]
     },
 ]);
