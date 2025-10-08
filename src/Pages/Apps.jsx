@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AppsCards from '../Components/AppsCards';
 
 const Apps = () => {
     const data = useLoaderData()
+    const [search, setSearch] = useState("");
+
+    const handleSearch = (e) => {
+        setSearch(e.target.value)
+    }
+    const validateSearch = search.trim().toLowerCase();
+    // console.log(validateSearch);
+    const matchedData = validateSearch ? data.filter(item => item.title.toLowerCase().includes(validateSearch)) : data
+    // console.log(matchedData);
 
     return (
         <div className='my-12 w-11/12 mx-auto'>
@@ -11,7 +20,7 @@ const Apps = () => {
             <p className='text-[#627382] text-center mt-2'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
             <div className='mt-8 flex items-center justify-between'>
-                <p className='font-medium md:text-xl text-[#001931]'>({data.length}) Apps Found</p>
+                <p className='font-medium md:text-xl text-[#001931]'>({matchedData.length}) Apps Found</p>
                 <label className="input w-40 md:w-auto">
                     <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <g
@@ -25,13 +34,15 @@ const Apps = () => {
                             <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input type="search" required placeholder="Search Apps" />
+                    <input onChange={handleSearch} type="search" required placeholder="Search Apps" />
                 </label>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 my-5'>
                 {
-                    data.map(item => <AppsCards key={item.id} item={item}></AppsCards>)
+                    matchedData.length !== 0 ?
+                        matchedData.map(item => <AppsCards key={item.id} item={item}></AppsCards>) :
+                        <p className='text-5xl text-black/60 font-bold text-center my-10 col-span-1 md:col-span-3 lg:col-span-4'>App Not Found</p>
                 }
             </div>
         </div>

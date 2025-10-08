@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import Logo from '../assets/resources/logo.png'
 import GithubLogo from '../assets/resources/Vector.png'
 
@@ -19,10 +19,10 @@ const Navbar = () => {
                         <NavLink to={'/installation'} className={'font-medium hover:text-[#632EE3]'}>Installation</NavLink>
                     </ul>
                 </div>
-                <div className='flex items-center gap-3'>
+                <Link to={'/'} className='flex items-center gap-2'>
                     <img className='w-10' src={Logo} alt="Logo" />
-                    <h1 className='font-bold text-xl text-[#632EE3]'>HERO.IO</h1>
-                </div>
+                    <h1 to={'/'} className='font-bold text-xl text-[#632EE3]'>HERO.IO</h1>
+                </Link>
 
             </div>
             <div className="navbar-center hidden lg:flex">

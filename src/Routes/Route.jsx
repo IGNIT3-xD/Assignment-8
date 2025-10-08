@@ -5,10 +5,12 @@ import Page from './../Pages/Page';
 import Apps from './../Pages/Apps';
 import Installation from './../Pages/Installation';
 import AppsDetails from './../Pages/AppsDetails';
+import Loading from "../Components/Loading";
 
 
 const router = createBrowserRouter([
     {
+        hydrateFallbackElement: <Loading></Loading>,
         path: "/",
         Component: Root,
         children: [
@@ -20,16 +22,20 @@ const router = createBrowserRouter([
             {
                 path: 'apps',
                 Component: Apps,
-                loader: () => fetch('../Data.json').then(res => res.json())
+                loader: () => fetch('../Data.json').then(res => res.json()),
             },
 
             {
-                path: 'app-details/:id',
+                path: 'apps/:id',
                 Component: AppsDetails,
-                loader: () => fetch('../Data.json').then(res => res.json())
+                loader: () => fetch('../Data.json').then(res => res.json()),
             },
-            { path: 'installation', Component: Installation },
-            { path: '*', element: <p className="text-2xl font-bold text-center">Error</p> }
+            {
+                path: 'installation',
+                Component: Installation,
+                loader: () => fetch('../Data.json').then(res => res.json()),
+            },
+            { path: '*', element: <p className="text-2xl font-bold text-center">404 No Page Found</p> },
         ]
     },
 ]);

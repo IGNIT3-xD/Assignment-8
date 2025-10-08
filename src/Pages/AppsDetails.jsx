@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import DownloadIcon from '../assets/resources/icon-downloads.png'
 import RatingIcon from '../assets/resources/icon-ratings.png'
@@ -13,6 +13,7 @@ import {
     Legend,
     ResponsiveContainer,
 } from 'recharts';
+import { addApps, getInstalledApps } from '../Utilities/InstalledApps';
 
 const AppsDetails = () => {
 
@@ -23,6 +24,20 @@ const AppsDetails = () => {
     // console.log(app);
     const ratingData = app.ratings.slice().reverse()
     // console.log(ratingData);
+    const [isInstalled, setIsInstalled] = useState(false)
+
+    // Fix installed button on reload
+    useEffect(() => {
+        const installedApps = getInstalledApps();
+        if (installedApps.includes(app.id)) {
+            setIsInstalled(true)
+        }
+    }, [app])
+
+    const handleInstalled = () => {
+        addApps(app.id)
+        setIsInstalled(true)
+    }
 
     return (
         <div className='my-10 mx-auto w-11/12'>
@@ -51,7 +66,7 @@ const AppsDetails = () => {
                             <p className='font-bold text-2xl text-[#001931]'>{app.reviews}</p>
                         </div>
                     </div>
-                    <button className='btn bg-[#00D390] text-white mt-4'>Install Now ({app.size} MB)</button>
+                    <button onClick={handleInstalled} disabled={isInstalled} className='btn bg-[#00D390] text-white mt-4'>{isInstalled ? "Installed" : `Install Now (${app.size} MB)`}</button>
                 </div>
             </div>
 
