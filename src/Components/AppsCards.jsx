@@ -3,11 +3,10 @@ import DownloadIcon from '../assets/resources/icon-downloads.png'
 import RatingIcon from '../assets/resources/icon-ratings.png'
 import { Link } from 'react-router';
 
-const HomeCards = ({ item }) => {
-    // console.log(item);
+const AppsCards = ({ item }) => {
 
     return (
-        <Link to={`app-details/${item.id}`}>
+        <Link to={`/app-details/${item.id}`}>
             <div className='bg-white shadow-sm rounded-md p-4 space-y-3 hover:translate-y-2 transition duration-200'>
                 <figure>
                     <img className='rounded-md w-full md:w-60 lg:w-11/12 mx-auto' src={item.image} alt="" />
@@ -24,4 +23,4 @@ const HomeCards = ({ item }) => {
     );
 };
 
-export default HomeCards;
+export default AppsCards;
