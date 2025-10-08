@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import { appsUninstall, getInstalledApps } from './../Utilities/InstalledApps';
 import DownloadIcon from '../assets/resources/icon-downloads.png'
 import RatingIcon from '../assets/resources/icon-ratings.png'
+import { toast } from 'react-toastify';
 
 const Installation = () => {
     const data = useLoaderData()
@@ -36,6 +37,7 @@ const Installation = () => {
     const handleUninstall = (id) => {
         // console.log(id);
         setInstalled(prev => prev.filter(app => app.id !== id))
+        toast.info('App has been Uninstalled')
         appsUninstall(id)
     }
 
@@ -59,10 +61,10 @@ const Installation = () => {
                 {
                     installed.map(app =>
                         <div key={app.id} className='bg-white p-2 rounded-md shadow-sm flex justify-between items-center'>
-                            <div className='flex gap-5'>
+                            <div className='flex gap-2 md:gap-5'>
                                 <img className='w-20 rounded-md p-1 bg-black/5' src={app.image} />
                                 <div className='flex flex-col justify-around'>
-                                    <p className='font-bold text-[#001931]'>{app.title}</p>
+                                    <p className='text-sm md:text-xl md:font-bold text-[#001931]'>{app.title}</p>
                                     <div className='flex items-center justify-around gap-5 text-sm'>
                                         <span className='flex items-center text-green-400 gap-2'><img className='w-4' src={DownloadIcon} /> {app.downloads}</span>
                                         <span className='flex items-center text-green-500 gap-2'><img className='w-4' src={RatingIcon} /> {app.ratingAvg}</span>

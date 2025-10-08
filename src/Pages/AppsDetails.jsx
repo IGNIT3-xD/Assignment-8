@@ -14,6 +14,7 @@ import {
     ResponsiveContainer,
 } from 'recharts';
 import { addApps, getInstalledApps } from '../Utilities/InstalledApps';
+import { toast } from 'react-toastify';
 
 const AppsDetails = () => {
 
@@ -35,6 +36,7 @@ const AppsDetails = () => {
     }, [app])
 
     const handleInstalled = () => {
+        toast.success(`Installed - ${app.title}`)
         addApps(app.id)
         setIsInstalled(true)
     }
