@@ -5,5 +5,3 @@ At HERO.IO , we craft innovative apps designed to make everyday life simpler, sm
 ## Tech Stack
 
 **Client:** React, TailwindCSS
-
-![Logo](./src/assets/resources/logo.png)
